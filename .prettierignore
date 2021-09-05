@@ -1,0 +1,7 @@
+# 人工生成的文件
+node_modules
+/dist
+
+# 根目录下的配置文件等
+/*.*
+LICENSE

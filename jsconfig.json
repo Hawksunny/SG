@@ -1,0 +1,16 @@
+{
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules", "dist"],
+  "compilerOptions": {
+    "target": "esnext",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "assets/*": ["./src/assets/*"],
+      "components/*": ["./src/components/*"],
+      "common/*": ["./src/common/*"],
+      "views": ["./src/views/*"],
+      "network": ["./src/network/*"]
+    }
+  }
+}

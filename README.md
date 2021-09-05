@@ -1,5 +1,6 @@
-# sg
-
+# 随记
+### 随时随地记录
+#
 ## Project setup
 ```
 npm install

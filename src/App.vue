@@ -1,5 +1,7 @@
 <template>
-  <div id="app"></div>
+  <div id="app">
+    <router-view />
+  </div>
 </template>
 <script>
 export default {
@@ -7,4 +9,6 @@ export default {
   components: {},
 }
 </script>
-<style lang="less"></style>
+<style lang="less">
+@import url('assets/style/base.css');
+</style>
